@@ -1,6 +1,6 @@
 import json
 
-from .qna_generator import client, MODEL_NAME
+from qna_generator import client, MODEL_NAME
 
 
 def translate_qna(
