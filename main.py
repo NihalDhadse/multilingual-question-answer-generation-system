@@ -1,16 +1,16 @@
 import sys
 from pathlib import Path
 
-from src.document_reader import extract_text
-from src.text_processor import (
+from document_reader import extract_text
+from text_processor import (
     clean_text,
     chunk_text,
     remove_duplicate_questions
 )
-from src.qna_generator import generate_qna
-from src.validator import validate_qna
-from src.translator import translate_qna
-from src.excel_generator import create_excel
+from qna_generator import generate_qna
+from validator import validate_qna
+from translator import translate_qna
+from excel_generator import create_excel
 
 
 OUTPUT_DIR = Path("output")
